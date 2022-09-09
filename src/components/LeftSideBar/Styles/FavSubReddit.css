@@ -1,0 +1,31 @@
+.fav-sub-reddit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .8rem;
+    margin-bottom: 1.2rem;
+}
+
+.sidebar-card img {
+    width: 24px;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: .5rem;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+.aifillstar {
+    color: #FF4509;
+    font-size: 1.25rem;
+}

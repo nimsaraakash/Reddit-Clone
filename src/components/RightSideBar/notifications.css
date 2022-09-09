@@ -1,0 +1,26 @@
+.notifications {
+    margin-right: 80px;
+    padding: 1.4rem;
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: .7rem;
+}
+
+.notify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.bell {
+    display: flex;
+}
+
+.icon {
+    font-size: 1.4rem;
+}
+
+.selected {
+    color: #FF4509;
+}

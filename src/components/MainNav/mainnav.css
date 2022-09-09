@@ -1,0 +1,105 @@
+.nav {
+    height: 6.5rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 32px;
+    margin-right: .5rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links p {
+    padding-right: 2rem;
+    text-decoration: none;
+    color: #474747;
+    font-size: .9rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.nav-links .icon {
+    padding-right: .5rem;
+}
+
+.selected {
+    color: #FF4509;
+}
+
+.nav-search input {
+    width: 250px;
+    height: 35px;
+    background: rgb(236, 236, 236);
+    border: none;
+    border-radius: .5rem;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-search .search-icon {
+    position: absolute;
+    padding-left: 1rem;
+    padding-top: .6rem;
+    color: #FF4509;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    margin-right: .5rem;
+}
+
+.profile-circle {
+    width: 7px;
+    height: 7px;
+    background-color: #FF4509;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    outline: 1px solid white;
+}
+
+.nav-info h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav-info h3 {
+    font-size: .7rem;
+    font-weight: 400;
+    color: #FF4509;
+}
+
+.fa-bahai {
+    margin-right: 3px;
+}
+
+.selected {
+    color: #FF4509 !important;
+}
+
+.nav-search input:focus {
+    outline-width: 0;
+}

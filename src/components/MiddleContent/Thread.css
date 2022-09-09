@@ -1,0 +1,83 @@
+.thread {
+    margin-top: 2.4rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-left: 2rem;
+    border-radius: 1rem;
+
+}
+
+.content-user-details {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.circle-body {
+    width: 8px;
+    height: 8px;
+    background-color: #FF4509;
+    border-radius: 50%;
+}
+
+.content-user-details img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.content-user-details p{
+    padding-right: 1rem;
+    padding-left: .3rem;
+}
+
+.thread-title {
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.interactions {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .7rem !important;
+    max-width: 85%;
+    padding-bottom: 2rem;
+}
+
+.interactions .icon {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1rem;
+}
+
+.votes, .comments, .share {
+    display: flex;
+}
+
+.votes {
+    background-color: #f6f6f6;
+    padding: 5px 6px;
+    border-radius: .5rem;
+}
+
+.votes-selected {
+    color: #FF4509;
+    font-weight: 600;
+}
+
+.sub-redit {
+    background-color: #f6f6f6;
+    padding: 5px 6px;
+    border-radius: .5rem;
+}
+
+.img {
+    background-size: cover;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
